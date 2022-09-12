@@ -29,7 +29,8 @@ body {
 
 footer {
     width: 100vw;
-    display: inline-flex;
+    display: flex;
+    flex-direction:row;
     justify-content: center;
     text-align: center
 }
@@ -48,9 +49,21 @@ footer {
 }
 
 #phone {
-    background-color: rgb(136,205,148)
+    margin: 0 auto;
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    background-color: rgb(136,205,148);
+    width:50vw;
+    height:50vw
 }
 
 #message {
-    background-color: rgb(116,186, 130)
+    background-color: rgb(116,186, 130);
+    width: 50vw;
+    height: 50vw
+}
+
+l {
+    margin: 0 auto;
 }

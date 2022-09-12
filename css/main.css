@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Helvetica
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction:column;
+    height: 100h;
+    width: 100v
+}
+
+#profile-pic {
+    border-radius: 50%;
+    border-color: rgb(136,205,148);
+    border-style:solid;
+    border-width: 5px
+}
+
+.banner {
+    text-align:right
+}
+
+footer {
+    width: 100vw;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center
+}
+
+.fa-star-yellow {
+    color: rgb(238,214,107)
+}
+
+.fa-star-grey {
+    color: rgb(205,205,205)
+}
+
+#description {
+    padding: 10 px;
+    background-color: rgb(243,243,243)
+}
+
+#phone {
+    background-color: rgb(136,205,148)
+}
+
+#message {
+    background-color: rgb(116,186, 130)
+}
